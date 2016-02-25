@@ -15,3 +15,4 @@ jspm \
 ;
 
 VOLUME ["/root"]
+WORKDIR /root
