@@ -12,6 +12,7 @@ tsd \
 grunt-cli \
 gulp-cli \
 jspm \
+phantomjs-prebuilt \
 ;
 
 RUN apt-get update
