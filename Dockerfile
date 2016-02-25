@@ -13,9 +13,9 @@ grunt-cli \
 gulp-cli \
 jspm \
 phantomjs-prebuilt \
-npm@2.12.1 \
 ;
 
+RUN npm install --global npm@2.12.1
 # https://github.com/npm/npm/issues/8982
 
 RUN apt-get update
