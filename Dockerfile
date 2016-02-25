@@ -14,5 +14,5 @@ gulp-cli \
 jspm \
 ;
 
-VOLUME ["/root"]
-WORKDIR /root
+VOLUME ["/mnt"]
+WORKDIR /mnt
