@@ -14,5 +14,9 @@ gulp-cli \
 jspm \
 ;
 
+RUN apt-get update
+RUN apt-get install -y ruby-dev rubygems
+RUN gem update --system && gem install compass
+
 VOLUME ["/mnt"]
 WORKDIR /mnt
