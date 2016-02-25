@@ -13,3 +13,5 @@ grunt-cli \
 gulp-cli \
 jspm \
 ;
+
+VOLUME ["/root"]
