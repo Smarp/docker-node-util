@@ -1,4 +1,4 @@
-FROM node:4.3.1
+FROM node:0.12.10
 
 ENV NPM_CONFIG_LOGLEVEL warn
 
