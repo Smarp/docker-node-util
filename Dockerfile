@@ -22,5 +22,7 @@ RUN apt-get update
 RUN apt-get install -y ruby-dev rubygems
 RUN gem update --system && gem install compass
 
+RUN apt-get install -y unzip
+
 VOLUME ["/mnt"]
 WORKDIR /mnt
