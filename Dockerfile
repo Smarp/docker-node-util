@@ -1,4 +1,4 @@
-FROM node:4.3.1
+FROM node:4.4.3
 
 ENV NPM_CONFIG_LOGLEVEL warn
 
@@ -23,6 +23,8 @@ RUN apt-get install -y ruby-dev rubygems
 RUN gem update --system && gem install compass
 
 RUN apt-get install -y unzip
+
+RUN npm install tslint --global
 
 VOLUME ["/mnt"]
 WORKDIR /mnt
