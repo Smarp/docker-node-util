@@ -1,4 +1,4 @@
-FROM node:4.4.3
+FROM node:4.6.0
 
 ENV NPM_CONFIG_LOGLEVEL warn
 
@@ -13,6 +13,7 @@ grunt-cli \
 gulp-cli \
 jspm \
 phantomjs-prebuilt \
+gettext \
 ;
 
 RUN npm install --global npm@2.12.1
