@@ -1,22 +1,11 @@
-FROM node:4.6.0
+FROM node:6
 
 ENV NPM_CONFIG_LOGLEVEL warn
 
-RUN npm install --global npm@2.12.1
-# https://github.com/npm/npm/issues/8982
-
 RUN npm install --global \
-bower \
 karma-cli \
 protractor \
-typings \
-typescript \
-tsd \
 grunt-cli \
-gulp-cli \
-jspm \
-phantomjs-prebuilt \
-tslint \
 ;
 
 RUN apt-get update
